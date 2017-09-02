@@ -1,0 +1,12 @@
+.icon {
+  width: 16rpx;
+  display: inline-block;
+  background-size: 16rpx;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+}
+
+.icon.rightarrow {
+  background-image: url(http://git.oschina.net/moyuan/mumu/raw/master/images/arrow_right.svg);  
+}
