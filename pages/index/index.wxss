@@ -1,0 +1,85 @@
+/**index.wxss**/
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: left;
+}
+
+.title text {
+  margin-bottom: 8rpx;
+}
+
+text.primary {
+  font-size: 32rpx;
+  color: black;
+}
+
+text.description {
+  font-size: 24rpx;
+  color: #aaa;
+  margin-top: 16rpx;
+}
+
+.logo {
+  border-radius: 100%;
+  width: 128rpx;
+  height: 128rpx;
+  display: inline-block;
+}
+
+.info {
+  margin-top: 48rpx;
+  width: 100%;
+}
+
+.info .item {
+  width: 100%;
+  height: 64rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.info .two-parts {
+  justify-content: space-between;
+}
+
+.info .item icon,.icon {
+  margin-right: 16rpx;
+}
+
+.rightarrow {
+  height: 64rpx;
+}
+
+.info .item text {
+  font-size: 24rpx;
+  color: black;
+}
+
+.image-container {
+  margin-top: 48rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 0;
+}
+
+.image-container image {
+  display: flex;
+}
