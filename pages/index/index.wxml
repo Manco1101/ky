@@ -1,27 +1,27 @@
 <view class="container">
 
 <view class="header">
-	
 	<view class="title">
-		<text class="primary">坤元驾校</text>
-		<text class="primary">清湖店</text>
-		<text class="description">学车-年审</text>
+		<text class="primary">坤元驾校 - 龙华分部</text>
+		<text class="description">学车-年审-签证-换证</text>
 	</view>
 	<image class="logo" mode="aspectFill" src="{{logo}}"></image>
 </view>
 
 	<view class="info">
 		<view class="item two-parts" bindtap="onLocation">
-			<view>
+			<view class = "sub-title">
 				<icon type="download" size="{{18}}" color="#aaa"/>
-				<text>广东省深圳市龙华区清泉富景大夏</text>
+				<text class="desc">广东省深圳市龙华区清泉富景大夏4楼410</text>  
 			</view>
-			<text class="icon rightarrow"></text>
+      <text class="icon rightarrow"></text>
 		</view>
+
 		<view class="item">
 			<icon type="waiting" size="{{18}}" color="#aaa"/>
 			<text>10:00-22:00</text>
 		</view>
+
 		<view class="item two-parts" bindtap="onCall">
 			<view>
 				<icon type="success" size="{{18}}" color="#aaa"/>
@@ -29,14 +29,21 @@
 			</view>
 			<text class="icon rightarrow"></text>
 		</view>
+
 		<view class="item">
 			<icon type="success" size="{{18}}" color="#aaa"/>
 			<text>相关照片</text>
 		</view>
+
 	</view>
 
 	<view class="image-container">
 	  <image mode="widthFix" wx:for="{{items}}" src="{{item}}" style="width: {{itemSize}}px; height:{{itemSize}}px; margin-right: {{(index + 1) % 3 === 0 ? 0 : itemAway}}px; margin-bottom: {{itemAway}}px;" data-src="{{item}}" bindtap="previewItem"></image>
 	</view>
-
+  
+  <view class="section" bindtap="bindViewTap">
+    <view class="button">
+      <text>问题反馈</text>
+    </view>
+  </view>  
 </view>
