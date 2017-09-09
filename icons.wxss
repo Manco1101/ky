@@ -8,5 +8,5 @@
 }
 
 .icon.rightarrow {
-  background-image: url(http://git.oschina.net/moyuan/mumu/raw/master/images/arrow_right.svg);  
+  background-image: url(https://raw.githubusercontent.com/Manco1101/ky/master/images/arrow.png);  
 }
