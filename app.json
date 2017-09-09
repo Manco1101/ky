@@ -1,12 +1,14 @@
 {
+    "debug": "true",
   "pages":[
     "pages/index/index",
+    "pages/feedback/index",
     "pages/logs/logs"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "坤元驾校",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle":"black",
+    "navigationBarTitleText": " "
   }
 }
